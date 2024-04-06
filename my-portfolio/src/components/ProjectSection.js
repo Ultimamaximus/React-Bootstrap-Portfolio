@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from './ProjectCard'; // Import the ProjectCard component
+import ProjectCard from './ProjectCard';
 
 function ProjectSection() {
   return (
@@ -10,21 +10,21 @@ function ProjectSection() {
         <ProjectCard 
           title="Silvanus Grove" 
           description="A sleek web app for plant enthusiasts, featuring React, Firebase, and Stripe for a seamless shopping experience." 
-          imageUrl="./assets/plant.jpg" // Corrected URL
+          imageUrl="./assets/plant.jpg" 
           projectUrl="https://symphonious-sable-ca8f44.netlify.app/" 
         />
         {/* Project 2 */}
         <ProjectCard 
           title="Wordle Clone" 
           description="A compact web-based version of the famous word game, offering a 5-letter puzzle challenge with color-coded hints."
-          imageUrl="./assets/wordle.jpg" // Corrected URL
+          imageUrl="./assets/wordle.jpg" 
           projectUrl="https://ultimamaximus.github.io/Wordle-Clone/" 
         />
         {/* Project 3 */}
         <ProjectCard 
           title="Muse Playlist Creator" 
           description="A creative, efficient React app for easy Spotify playlist creation, syncing playlists directly to your account using the Spotify API."
-          imageUrl="./assets/muse.jpg" // Corrected URL
+          imageUrl="./assets/muse.jpg" 
           projectUrl="https://merry-youtiao-ecf432.netlify.app" 
         />
       </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-// Make sure the image path is correct
 import heroImage from './assets/profile-img.jpg'
 
 function HeroSection() {

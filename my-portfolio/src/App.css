@@ -5,7 +5,7 @@ html {
 
 .custom-brand {
   font-weight: bold;
-  color: #030303; /* Choose your color */
+  color: #030303; 
   font-size: 1.5rem;
 }
 
@@ -14,7 +14,7 @@ html {
 }
 
 .custom-link:hover {
-  color: #030303; /* Choose your color */
+  color: #030303; 
   text-decoration: underline;
 }
 
@@ -50,12 +50,12 @@ html {
 }
 
 .darker-label {
-  color: #030303; /* Or any darker color you prefer */
+  color: #030303;
 }
 
 .custom-btn {
   color: #030303; /* This sets the text color to white */
-  background-color: #fff; /* Your desired button color */
+  background-color: #fff; 
   border-color: #030303; /* Border color if needed */
 }
 
@@ -75,7 +75,6 @@ form .d-grid.mb-4 {
   color: #fff; /* Sets the text color to white */
   background-color: #030303; /* Sets the button color to black */
   border-color: #030303; /* Sets the border color to black */
-  /* Add any other specific styles you want for this button */
 }
 
 .submit-btn:hover {
@@ -86,3 +85,7 @@ form .d-grid.mb-4 {
 
 }
 
+
+.nav-link, .custom-link {
+  text-decoration: none !important; /* Use !important to ensure override */
+}
