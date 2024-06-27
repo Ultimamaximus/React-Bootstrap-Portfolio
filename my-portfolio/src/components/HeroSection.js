@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from './assets/profile-img.jpg'
+import heroImage from './assets/profile-img.webp'
 
 function HeroSection() {
   return (
