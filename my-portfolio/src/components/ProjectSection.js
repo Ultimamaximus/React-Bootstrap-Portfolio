@@ -24,7 +24,7 @@ function ProjectSection() {
         <ProjectCard 
           title="Wordle Clone" 
           description="A compact web-based version of the famous word game, offering a 5-letter puzzle challenge with color-coded hints."
-          imageUrl="./assets/wordle.jpg" 
+          imageUrl="./assets/wordle.webp" 
           projectUrl="https://ultimamaximus.github.io/Wordle-Clone/" 
         />
         {/* Project 4 */}
