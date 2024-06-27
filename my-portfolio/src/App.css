@@ -1,11 +1,13 @@
-
 html {
   scroll-behavior: smooth;
 }
 
+.custom-brand, .custom-toggler, .custom-link:hover, .darker-label, .custom-btn, .submit-btn {
+  color: #030303; 
+}
+
 .custom-brand {
   font-weight: bold;
-  color: #030303; 
   font-size: 1.5rem;
 }
 
@@ -14,7 +16,6 @@ html {
 }
 
 .custom-link:hover {
-  color: #030303; 
   text-decoration: underline;
 }
 
@@ -23,69 +24,46 @@ html {
 }
 
 .navbar.sticky-top.scrolled {
-  background-color: #fff; /* Color when scrolled */
+  background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .hero-section {
   margin-top: 20px;
 }
+
 .hero-image {
   width: 100%;
   height: auto;
-  border-radius: 0.25rem; /* Optional: for rounded corners */
+  border-radius: 0.25rem;
 }
 
 .card-img-top {
-  height: 200px; /* Set a fixed height */
-  object-fit: cover; /* This will cover the area without stretching the image */
+  height: 200px;
+  object-fit: cover;
   object-position: top;
-  width: 100%; /* This will make sure the width is always 100% of the card */
+  width: 100%;
 }
-
 
 .contact-section {
-  padding-top: 3rem; /* or use margin-top if preferred */
-  /* Other styles for the contact section */
+  padding-top: 3rem;
 }
 
-.darker-label {
-  color: #030303;
+.custom-btn, .submit-btn {
+  background-color: #fff;
+  border-color: #030303;
 }
 
-.custom-btn {
-  color: #030303; /* This sets the text color to white */
-  background-color: #fff; 
-  border-color: #030303; /* Border color if needed */
+.custom-btn:hover, .submit-btn:hover {
+  color: #fff;
+  background-color: #020202;
+  border-color: #020202;
 }
 
-.custom-btn:hover {
-  color: #fff; /* Text color on hover */
-  background-color: #020202; /* Slightly different color on hover */
-  border-color: #020202; /* Border color on hover */
-}
-
-
-/* Adjust bottom spacing of the form */
 form .d-grid.mb-4 {
-  margin-bottom: 2rem;/* or adjust as needed */
+  margin-bottom: 2rem;
 }
-
-.submit-btn {
-  color: #fff; /* Sets the text color to white */
-  background-color: #030303; /* Sets the button color to black */
-  border-color: #030303; /* Sets the border color to black */
-}
-
-.submit-btn:hover {
-  color: #fff; /* Text color on hover (keep it white) */
-  background-color: #020202; /* Slightly darker color on hover */
-  border-color: #020202; /* Border color on hover */
-  background-color: #000; /* Darken the background color */
-
-}
-
 
 .nav-link, .custom-link {
-  text-decoration: none !important; /* Use !important to ensure override */
+  text-decoration: none !important;
 }

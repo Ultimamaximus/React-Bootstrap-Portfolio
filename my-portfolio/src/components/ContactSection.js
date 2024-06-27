@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function ContactSection() {
   return (
@@ -10,15 +11,39 @@ function ContactSection() {
           <form action="https://formspree.io/f/xoqgjolr" method="POST">
             <div className="mb-3">
               <label htmlFor="name" className="form-label darker-label">Name</label>
-              <input type="text" name="name" className="form-control" id="name" placeholder="Enter your name" />
+              <input 
+                type="text" 
+                name="name" 
+                className="form-control" 
+                id="name" 
+                placeholder="Enter your name" 
+                required 
+                aria-label="Enter your name"
+              />
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label darker-label">Email</label>
-              <input type="email" name="_replyto" className="form-control" id="email" placeholder="Enter your email" />
+              <input 
+                type="email" 
+                name="_replyto" 
+                className="form-control" 
+                id="email" 
+                placeholder="Enter your email" 
+                required 
+                aria-label="Enter your email"
+              />
             </div>
             <div className="mb-3">
               <label htmlFor="message" className="form-label darker-label">Message</label>
-              <textarea name="message" className="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+              <textarea 
+                name="message" 
+                className="form-control" 
+                id="message" 
+                rows="3" 
+                placeholder="Your message" 
+                required 
+                aria-label="Your message"
+              ></textarea>
             </div>
             <div className="d-grid mb-4">
               <button type="submit" className="btn submit-btn">Send Message</button>
@@ -29,5 +54,13 @@ function ContactSection() {
     </div>
   );
 }
+
+ContactSection.propTypes = {
+  formAction: PropTypes.string,
+};
+
+ContactSection.defaultProps = {
+  formAction: "https://formspree.io/f/xoqgjolr",
+};
 
 export default ContactSection;
