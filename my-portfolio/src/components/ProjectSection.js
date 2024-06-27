@@ -17,7 +17,7 @@ function ProjectSection() {
         <ProjectCard 
           title="Silvanus Grove" 
           description="A sleek web app for plant enthusiasts, featuring React, Firebase, and Stripe for a seamless shopping experience." 
-          imageUrl="./assets/plant.jpg" 
+          imageUrl="./assets/plant.webp" 
           projectUrl="https://symphonious-sable-ca8f44.netlify.app/" 
         />
         {/* Project 3 */}
@@ -31,7 +31,7 @@ function ProjectSection() {
         <ProjectCard 
           title="Muse Playlist Creator" 
           description="A creative, efficient React app for easy Spotify playlist creation, syncing playlists directly to your account using the Spotify API."
-          imageUrl="./assets/muse.jpg" 
+          imageUrl="./assets/muse.webp" 
           projectUrl="https://merry-youtiao-ecf432.netlify.app" 
         />
       </div>
